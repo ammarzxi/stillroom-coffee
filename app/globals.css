@@ -47,3 +47,28 @@ a {
   background: var(--primary);
   color: var(--background);
 }
+
+.section-eyebrow {
+  color: var(--muted-foreground);
+  font-size: 9px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=2200&q=90");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-image {
+  background-image: url("https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1400&q=85");
+}
+
+.pastry-image {
+  background-image: url("https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1200&q=85");
+}
+
+.coffee-card-image {
+  isolation: isolate;
+}
