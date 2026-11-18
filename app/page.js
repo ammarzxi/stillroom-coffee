@@ -7,7 +7,7 @@ const coffees = [
     description: "A double espresso softened with silky steamed milk.",
     price: "£3.60",
     note: "HOUSE FAVOURITE",
-    image: "https://images.unsplash.com/photo-1534778101976-628apro?auto=format&fit=crop&w=1000&q=85",
+    image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=85",
   },
   {
     number: "02",
