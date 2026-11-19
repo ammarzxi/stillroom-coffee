@@ -62,7 +62,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="bg-background px-6 py-24 lg:px-10 lg:py-32">
+      <section id="menu" className="bg-background px-6 py-24 lg:px-10 lg:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div>
@@ -170,6 +170,149 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id="craft" className="bg-[#eae4d8] px-6 py-24 lg:px-10 lg:py-32">
+        <div className="mx-auto grid max-w-7xl items-center gap-14 md:grid-cols-2 md:gap-20">
+          <div className="relative">
+            <div
+              className="aspect-[4/5] bg-cover bg-center"
+              style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=1400&q=85")' }}
+            />
+            <p className="absolute -bottom-5 left-5 bg-background px-5 py-4 font-heading text-xl italic text-primary">
+              Thought in every detail.
+            </p>
+          </div>
+          <div className="max-w-xl md:py-8">
+            <p className="section-eyebrow">Behind every cup</p>
+            <h2 className="mt-5 font-heading text-5xl leading-[0.98] tracking-tight sm:text-6xl">
+              Good coffee is
+              <br />
+              <span className="italic text-primary">worth the care.</span>
+            </h2>
+            <p className="mt-8 text-sm leading-7 text-muted-foreground">
+              We keep things considered, not complicated. From choosing expressive
+              beans to giving each cup the time it needs, our approach is guided
+              by a simple belief: the details make the difference.
+            </p>
+            <div className="mt-10 grid gap-6 border-t border-[#d4cbbb] pt-6 sm:grid-cols-3">
+              <div>
+                <p className="font-heading text-3xl text-primary">01</p>
+                <h3 className="mt-3 text-xs uppercase tracking-[0.14em]">Good origins</h3>
+                <p className="mt-2 text-xs leading-5 text-muted-foreground">Beans chosen for character and balance.</p>
+              </div>
+              <div>
+                <p className="font-heading text-3xl text-primary">02</p>
+                <h3 className="mt-3 text-xs uppercase tracking-[0.14em]">Careful craft</h3>
+                <p className="mt-2 text-xs leading-5 text-muted-foreground">Every cup made with patience and attention.</p>
+              </div>
+              <div>
+                <p className="font-heading text-3xl text-primary">03</p>
+                <h3 className="mt-3 text-xs uppercase tracking-[0.14em]">Always curious</h3>
+                <p className="mt-2 text-xs leading-5 text-muted-foreground">A menu that changes with the seasons.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="space" className="bg-[#292b22] px-6 py-24 text-[#f5f1e8] lg:px-10 lg:py-32">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-end">
+            <div>
+              <p className="text-[9px] uppercase tracking-[0.24em] text-[#a8ad8a]">A seat saved for you</p>
+              <h2 className="mt-5 font-heading text-5xl leading-[0.98] tracking-tight sm:text-6xl">
+                Stay for
+                <br />
+                <span className="italic text-[#c7cba9]">a little longer.</span>
+              </h2>
+            </div>
+            <p className="max-w-md text-sm leading-7 text-[#c4c1b6] md:justify-self-end">
+              Come in for your morning coffee, settle into a corner with a book,
+              or catch up with someone you haven’t seen in a while. There’s room
+              to make the day your own.
+            </p>
+          </div>
+          <div className="mt-14 grid gap-4 sm:grid-cols-[1.4fr_0.8fr]">
+            <div
+              className="aspect-[5/3] bg-cover bg-center sm:aspect-[16/9]"
+              style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1600&q=85")' }}
+            />
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-1">
+              <div
+                className="min-h-40 bg-cover bg-center sm:min-h-0"
+                style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=85")' }}
+              />
+              <div
+                className="min-h-40 bg-cover bg-center sm:min-h-0"
+                style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=85")' }}
+              />
+            </div>
+          </div>
+          <div className="mt-6 flex flex-col gap-3 border-t border-white/15 pt-5 text-[9px] uppercase tracking-[0.2em] text-[#c4c1b6] sm:flex-row sm:justify-between">
+            <span>Good coffee, good company</span>
+            <span>Make yourself at home</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="visit" className="bg-background px-6 py-24 lg:px-10 lg:py-32">
+        <div className="mx-auto grid max-w-7xl gap-14 md:grid-cols-[1fr_1fr] md:items-center md:gap-20">
+          <div className="max-w-lg">
+            <p className="section-eyebrow">Come by sometime</p>
+            <h2 className="mt-5 font-heading text-5xl leading-[0.98] tracking-tight sm:text-6xl">
+              Your corner
+              <br />
+              of <span className="italic text-primary">the day.</span>
+            </h2>
+            <p className="mt-8 text-sm leading-7 text-muted-foreground">
+              We’re here for the first coffee of the morning, a slow afternoon
+              break, and everything in between. Drop in when you’re nearby.
+            </p>
+            <div className="mt-10 grid grid-cols-2 gap-8 border-t border-border pt-6">
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">Find us</p>
+                <p className="mt-3 font-heading text-2xl">London, UK</p>
+                <p className="mt-2 text-xs leading-5 text-muted-foreground">Your neighbourhood coffee house.</p>
+              </div>
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">Opening hours</p>
+                <p className="mt-3 font-heading text-2xl">Every day</p>
+                <p className="mt-2 text-xs leading-5 text-muted-foreground">8am — 6pm</p>
+              </div>
+            </div>
+            <a href="#menu" className="group mt-9 inline-flex items-center gap-5 border-b border-primary pb-3 text-[10px] uppercase tracking-[0.2em] text-primary">
+              Take a look at the menu <span className="text-base transition-transform group-hover:translate-x-1">↗</span>
+            </a>
+          </div>
+          <div
+            className="aspect-[4/5] bg-cover bg-center md:aspect-[5/6]"
+            style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=85")' }}
+          />
+        </div>
+      </section>
+
+      <section className="bg-[#dcdcc9] px-6 py-24 lg:px-10 lg:py-28">
+        <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-10 md:flex-row md:items-end">
+          <div>
+            <p className="section-eyebrow">A good day starts somewhere</p>
+            <h2 className="mt-5 max-w-3xl font-heading text-5xl leading-[0.95] tracking-tight sm:text-6xl md:text-7xl">
+              Make a little room
+              <br />
+              for <span className="italic text-primary">Stillroom.</span>
+            </h2>
+          </div>
+          <div className="max-w-xs md:pb-2">
+            <p className="text-sm leading-7 text-muted-foreground">
+              Your usual order or something new. Either way, we’ll have a cup
+              ready and a place to slow down.
+            </p>
+            <a href="#visit" className="group mt-7 inline-flex items-center gap-8 bg-[#292b22] px-6 py-4 text-[10px] uppercase tracking-[0.2em] text-[#f5f1e8] transition-colors hover:bg-primary">
+              Plan your visit <span className="text-base transition-transform group-hover:translate-x-1">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 }
